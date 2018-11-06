@@ -4,4 +4,4 @@ You can currently choose between: Russian 2035 as an replacement for CSAT in Van
 
 In progress:Unsung (Reb+Gov+Inv)
 
-Planned:SWOP
+Planned:SWOP (Might be allready done by the official dev of Antistasi)
