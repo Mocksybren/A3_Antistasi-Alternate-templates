@@ -8,7 +8,7 @@ CSATPilot = "uns_nvaf_pilot7";
 
 CSATMortar = "uns_1941_82mm_mortarNVA";
 CSATMG = "uns_dshk_high_NVA";
-staticATmuyMalos = "uns_SPG9_73mm_NVA";
+staticATmuyMalos = "uns_M40_106mm_NVA";
 staticAAmuyMalos = "tbd";
 
 
