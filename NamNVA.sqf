@@ -1,7 +1,7 @@
 CSATGrunt = "";
 CSATOfficer = "";
 CSATBodyG = "";
-CSATCrew = "";
+CSATCrew = "uns_men_NVA_guncrew_crewman";
 CSATMarksman = "";
 staticCrewMuyMalos = "";
 CSATPilot = "uns_nvaf_pilot7";
@@ -62,11 +62,11 @@ MortStaticCSATB = "";
 soporteStaticCSATB3 = "";
 
 armasCSAT = ["",""];
-municionCSAT = ["rhs_mag_nspn_green"];
-humo = humo + ["rhs_mag_nspd","rhs_mag_rdg2_white","rhs_mag_rdg2_black"];
-NVGoggles = NVGoggles + ["rhs_1PN138"];
-//opticasAAF = opticasAAF + ["rhs_acc_pgo7v",];
-itemsAAF = itemsAAF + ["rhs_acc_2dpZenit","rhs_acc_2dpZenit_ris"];
+municionCSAT = [""];
+humo = humo + ["","",""];
+NVGoggles = NVGoggles + [""];
+//opticasAAF = opticasAAF + ["",];
+itemsAAF = itemsAAF + ["",""];
 lamparaMuyMalos = "";
 flagCSATmrk = "";
 
