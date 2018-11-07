@@ -54,8 +54,8 @@ sniperRifle = "tbd";
 lamparasSDK = ["tbd"];
 
 
-ATMineMag = "rhs_mine_tm62m_mag";
-APERSMineMag = "rhs_mine_pmn2_mag";
+ATMineMag = "tbd";
+APERSMineMag = "tbd";
 
 
 	{
@@ -64,27 +64,27 @@ APERSMineMag = "rhs_mine_pmn2_mag";
 
 		{
 
-		FIARifleman = "rhsgref_hidf_rifleman";
+		FIARifleman = "tbd";
 
-		FIAMarksman = "rhsgref_hidf_marksman";
+		FIAMarksman = "tbd";
 
-		vehFIAArmedCar = "rhsgref_hidf_m1025_m2";
+		vehFIAArmedCar = "tbd";
 
-		vehFIATruck = "rhsgref_cdf_b_ural_open";
+		vehFIATruck = "tbd";
 
-		vehFIACar = "rhsgref_hidf_m998_4dr";
+		vehFIACar = "tbd";
 
 
 
-		gruposFIASmall = [["rhsgref_hidf_grenadier","rhsgref_hidf_rifleman"],["rhsgref_hidf_marksman","rhsgref_hidf_rifleman"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["tbd","tbd"],["tbd","tbd"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-		gruposFIAMid = [["rhsgref_hidf_teamleader","rhsgref_hidf_machinegunner","rhsgref_hidf_machinegunner_assist","rhsgref_hidf_grenadier"],["rhsgref_hidf_teamleader","rhsgref_hidf_rifleman_m72","rhsgref_hidf_rifleman_m72","rhsgref_hidf_grenadier"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
+		gruposFIAMid = [["tbd","tbd","tbd","tbd"],["tbd","tbd","tbd","tbd"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
 
-		FIASquad = ["rhsgref_hidf_squadleader","rhsgref_hidf_machinegunner","rhsgref_hidf_machinegunner_assist","rhsgref_hidf_rifleman","rhsgref_hidf_rifleman_m72","rhsgref_hidf_rifleman_m72","rhsgref_hidf_grenadier","rhsgref_hidf_medic"];//"IRG_InfSquad";///
+		FIASquad = ["tbd","tbd","tbd","tbd","tbd","tbd","tbd","tbd"];//"IRG_InfSquad";///
 
 		gruposFIASquad = [FIASquad];
 
-		factionFIA = "rhsgref_faction_hidf";
+		factionFIA = "tbd";
 
 		}
 
@@ -92,37 +92,37 @@ APERSMineMag = "rhs_mine_pmn2_mag";
 
 		{
 
-		FIARifleman = "rhs_msv_emr_rifleman";
+		FIARifleman = "tbd";
 
-		FIAMarksman = "rhs_msv_emr_marksman";
+		FIAMarksman = "tbd";
 
-		vehFIAArmedCar = "rhs_tigr_sts_3camo_msv";
+		vehFIAArmedCar = "tbd";
 
-		vehFIATruck = "rhs_zil131_open_msv";
+		vehFIATruck = "tbd";
 
-		vehFIACar = "rhs_uaz_open_MSV_01";
+		vehFIACar = "tbd";
 
 
 
-		gruposFIASmall = [["rhs_msv_emr_grenadier",FIARifleman],[FIAMarksman,FIARifleman]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["tbd",FIARifleman],[FIAMarksman,FIARifleman]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-		gruposFIAMid = [["rhsgref_hidf_teamleader","rhs_msv_emr_machinegunner",FIARifleman,"rhs_msv_emr_grenadier"],["rhsgref_hidf_teamleader","rhs_msv_emr_machinegunner",FIARifleman,"rhs_msv_emr_at"],["rhsgref_hidf_teamleader","rhs_msv_emr_machinegunner",FIARifleman,"rhs_msv_emr_engineer"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
+		gruposFIAMid = [["tbd","tbd",FIARifleman,"tbd"],["tbd","tbd",FIARifleman,"tbd"],["tbd","tbd",FIARifleman,"tbd"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
 
-		FIASquad = ["rhs_msv_emr_officer","rhs_msv_emr_grenadier","rhs_msv_emr_machinegunner","rhs_msv_emr_rifleman","rhs_msv_emr_marksman","rhs_msv_emr_engineer","rhs_msv_emr_at","rhs_msv_emr_medic"];//"IRG_InfSquad";///
+		FIASquad = ["tbd","tbd","tbd","tbd","tbd","tbd","tbd","tbd"];//"IRG_InfSquad";///
 
 		gruposFIASquad = [FIASquad];
 
-		factionFIA = "rhs_faction_msv";
+		factionFIA = "tbd";
 
 		};
 
 	};
 
 
-vehPoliceCar = "B_GEN_OFFROAD_01_gen_F";
-policeOfficer = "B_GEN_Commander_F";
-policeGrunt = "B_GEN_Soldier_F";
+vehPoliceCar = "tbd";
+policeOfficer = "tbd";
+policeGrunt = "tbd";
 gruposNATOGen = [policeOfficer,policeGrunt];
-nameBuenos = "ChDKZ";
+nameBuenos = "tbd";
 
-factionGEN = "BLU_GEN_F";
+factionGEN = "tbd";
