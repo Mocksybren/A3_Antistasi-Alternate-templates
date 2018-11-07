@@ -68,6 +68,6 @@ NVGoggles = NVGoggles;
 itemsAAF = itemsAAF + ["muzzle_min_rf_pbs_1","muzzle_min_rf_tgp_a","min_rf_backpack_black","min_rf_backpack_flora","min_rf_backpack_green","min_rf_backpack_surpat","min_rf_backpack_vsr"];
 
 lamparaMuyMalos = "acc_flashlight";
-flagCSATmrk = "flag_CSAT";
+flagCSATmrk = "flag_CSAT"; //might be changed to russian Flag
 nameMuyMalos = "Russian CSAT";
 if (isServer) then {"CSAT_carrier" setMarkerText "Russian Carrier"};
