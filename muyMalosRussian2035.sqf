@@ -32,7 +32,7 @@ vehCSATAir = vehCSATTransportHelis + vehCSATAttackHelis + [vehCSATPlane,vehCSATP
 vehCSATUAV = "min_rf_pchela-1t";
 vehCSATUAVSmall = "O_UAV_01_F";
 vehCSATMRLS = "min_rf_2b26";
-vehCSATMRLSMags = "R_min_rf_122mm_Grad_fly";
+vehCSATMRLSMags = "R_min_rf_122mm_Grad_fly";  //not sure if this one is correct have to test
 vehCSATNormal = vehCSATLight + vehCSATTrucks + [vehCSATAmmoTruck, "min_rf_truck_fuel","min_rf_truck_box"];
 vehCSATBike = "O_Quadbike_01_F";
 
