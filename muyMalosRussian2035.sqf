@@ -41,16 +41,16 @@ CSATFlagTexture = "\A3\Data_F\Flags\Flag_CSAT_CO.paa";
 CSATAmmoBox = "O_supplyCrate_F";
 
 //cfgCSATInf = (configfile >> "CfgGroups" >> "East" >> "OPF_T_F" >> "Infantry");
-gruposCSATSentry = ["min_rf_GL","min_rf_soldier"];///"O_T_InfSentry";///
+gruposCSATSentry = ["min_rf_soldier_GL","min_rf_soldier"];///"O_T_InfSentry";///
 gruposCSATSniper = ["min_rf_sniper","min_rf_spotter"];
 gruposCSATsmall = [gruposCSATSentry,["min_rf_soldier_TL","min_rf_soldier_LAT"],gruposCSATSniper];///[gruposCSATSentry,"O_T_reconSentry","O_T_SniperTeam"];///
 gruposCSATAA = ["min_rf_soldier_TL","min_rf_soldier_AA","min_rf_soldier_AA","min_rf_soldier_AAA"];
 gruposCSATAT = ["min_rf_soldier_TL","min_rf_soldier_AT","min_rf_soldier_AT","min_rf_soldier_AAT"];
-gruposCSATmid = [["min_rf_soldier_TL","min_rf_AR","min_rf_soldier_LAT","min_rf_medic"],gruposCSATAA,gruposCSATAT];///["O_T_InfTeam","O_T_InfTeam_AA","O_T_InfTeam_AT"];///
-CSATSquad = ["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_GL","min_rf_AR","min_rf_soldier_LAT","min_rf_soldier_A","min_rf_soldier","min_rf_medic"];///"O_T_InfSquad";///
+gruposCSATmid = [["min_rf_soldier_TL","min_rf_soldier_AR","min_rf_soldier_LAT","min_rf_medic"],gruposCSATAA,gruposCSATAT];///["O_T_InfTeam","O_T_InfTeam_AA","O_T_InfTeam_AT"];///
+CSATSquad = ["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_soldier_GL","min_rf_soldier_AR","min_rf_soldier_LAT","min_rf_soldier_A","min_rf_soldier","min_rf_medic"];///"O_T_InfSquad";///
 CSATSpecOp = ["min_rf_spetsnaz_TL","min_rf_spetsnaz_O","min_rf_spetsnaz_M","min_rf_spetsnaz_O","min_rf_spetsnaz_GL","min_rf_spetsnaz_AR"];///(configfile >> "CfgGroups" >> "East" >> "OPF_T_F" >> "SpecOps" >> "O_T_ViperTeam");///
 factionMachoMuyMalos = "min_rf";
-gruposCSATSquad = [CSATSquad,["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_AR","min_rf_soldier","min_rf_soldier_M","min_rf_soldier_At","min_rf_soldier_LAT","min_rf_medic"],["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_AR","min_rf_soldier","min_rf_soldier_M","min_rf_soldier_AAA","min_rf_soldier_AA","min_rf_medic"]];//[CSATSquad,"O_T_InfSquad_Weapons"];///
+gruposCSATSquad = [CSATSquad,["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_soldier_AR","min_rf_soldier","min_rf_soldier_M","min_rf_soldier_At","min_rf_soldier_LAT","min_rf_medic"],["min_rf_soldier_SL","min_rf_soldier_TL","min_rf_soldier_AR","min_rf_soldier","min_rf_soldier_M","min_rf_soldier_AAA","min_rf_soldier_AA","min_rf_medic"]];//[CSATSquad,"O_T_InfSquad_Weapons"];///
 
 soporteStaticCSATB = "O_HMG_01_support_high_F";
 ATStaticCSATB = "min_rf_torna_flora_Metis_w";
