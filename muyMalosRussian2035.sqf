@@ -69,5 +69,5 @@ itemsAAF = itemsAAF + ["muzzle_min_rf_pbs_1","muzzle_min_rf_tgp_a","min_rf_backp
 
 lamparaMuyMalos = "acc_flashlight";
 flagCSATmrk = "flag_CSAT"; //might be changed to russian Flag
-nameMuyMalos = "Russian CSAT"; //name change?
+nameMuyMalos = "Russia"; //name change?
 if (isServer) then {"CSAT_carrier" setMarkerText "Russian Carrier"};
