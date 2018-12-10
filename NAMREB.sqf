@@ -6,17 +6,17 @@ staticATBuenos = "uns_SPG9_73mm_VC";
 staticAABuenos = "uns_ZU23_VC";
 
 
-staticCrewBuenos = "tbd";
+staticCrewBuenos = "uns_men_CIDG_S2";
 SDKUnarmed = "tbd";
-SDKSniper = ["tbd","tbd"];
-SDKATman = ["tbd","tbd"];
-SDKMedic = ["tbd","tbd"];
-SDKMG = ["tbd","tbd"];
-SDKExp = ["tbd","tbd"];
-SDKGL = ["tbd","tbd"];
-SDKMil = ["tbd","tbd"];
-SDKSL = ["tbd","tbd"];
-SDKEng = ["tbd","tbd"];
+SDKSniper = ["uns_men_CIDG_MRK2","uns_men_CIDG_MRK"];
+SDKATman = ["uns_men_CIDG_AT","uns_men_CIDG_AT"];
+SDKMedic = ["uns_men_CIDG_MED","uns_men_ARVNci_MED"];
+SDKMG = ["uns_men_CIDG_HMG","uns_men_ARVNci_HMG"];
+SDKExp = ["uns_men_CIDG_SAP","uns_men_CIDG_DEM"];
+SDKGL = ["uns_men_CIDG_S10","uns_men_CIDG_GL"];
+SDKMil = ["uns_men_CIDG_S1","uns_men_CIDG_S3"];
+SDKSL = ["uns_men_ARVNci_PL","uns_men_ARVNci_SL"];
+SDKEng = ["uns_men_CIDG_ENG","uns_men_ARVNci_ENG"];
 
 
 vehSDKBike = "tbd";
@@ -30,7 +30,7 @@ vehSDKBoat = "UNS_VC_Sampan_Transport";
 vehSDKRepair = "uns_zil157_repair";
 SDKFlag = "Flag_Syndikat_F";
 SDKFlagTexture = "tbd";
-tipoPetros = "tbd";
+tipoPetros = "uns_men_ARVNci_RTO";
 
 
 soporteStaticSDKB = "tbd";
