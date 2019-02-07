@@ -146,23 +146,23 @@ else
 
 		{
 
-		FIARifleman = "O_G_Soldier_F";
+		FIARifleman = "min_rf_soldierU";
 
-		FIAMarksman = "O_G_Sharpshooter_F";
+		FIAMarksman = "min_rf_soldierU_M";
 
-		vehFIAArmedCar = "O_G_Offroad_01_armed_F";
+		vehFIAArmedCar = "min_rf_gaz_2330_HMG";
 
-		vehFIATruck = "O_G_van_01_transport_F";
+		vehFIATruck = "min_rf_truck_transport";
 
-		vehFIACar = "O_G_Offroad_01_F";
+		vehFIACar = "min_rf_gaz_2330";
 
-		gruposFIASmall = [["O_G_Soldier_GL_F","O_G_Soldier_F"],["O_G_Soldier_M_F","O_G_Soldier_F"],["O_G_Sharpshooter_F","O_G_Soldier_M_F"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["min_rf_soldierU_GL","min_rf_soldierU"],["min_rf_soldierU_M","min_rf_soldierU"],["min_rf_soldierU_M","min_rf_soldierU_M"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-		gruposFIAMid = [["O_G_Soldier_SL_F","O_G_Sharpshooter_F","O_G_Soldier_AR_F","O_G_Soldier_A_F"],["O_G_Soldier_TL_F","O_G_Soldier_AR_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F"],["O_G_Soldier_TL_F","O_G_Soldier_LAT_F","O_G_Soldier_LAT_F","O_G_Soldier_LAT_F"]];
+		gruposFIAMid = [["min_rf_soldierU_TL","min_rf_soldierU_M","min_rf_soldierU_AR","min_rf_soldierU_A"],["min_rf_soldierU_TL","min_rf_soldierU_AR","min_rf_soldierU_GL","min_rf_soldierU_LAT"],["min_rf_soldierU_TL","min_rf_soldierU_LAT","min_rf_soldierU_LAT","min_rf_soldierU_LAT"]];
 
-		FIASquad = ["O_G_soldier_SL_F","O_G_soldier_F","O_G_soldier_LAT_F","O_G_Soldier_M_F","O_G_soldier_TL_F","O_G_soldier_AR_F","O_G_Soldier_A_F","O_G_medic_F"];//"IRG_InfSquad";///
+		FIASquad = ["min_rf_soldierU_SL","min_rf_soldierU","min_rf_soldierU_LAT","min_rf_soldierU_M","min_rf_soldierU_TL","min_rf_soldierU_AR","min_rf_soldierU_A","min_rf_medicU"];//"IRG_InfSquad";///
 
-		gruposFIASquad = [FIASquad,["O_G_soldier_SL_F","O_G_soldier_LAT_F","O_G_Soldier_M_F","O_G_soldier_TL_F","O_G_Soldier_A_F","O_G_medic_F","O_support_MG_F","O_support_AMG_F"]];
+		gruposFIASquad = [FIASquad,["min_rf_soldierU_SL","min_rf_soldierU_LAT","min_rf_soldierU_M","min_rf_soldierU_TL","min_rf_soldierU_A","min_rf_medicU","min_rf_soldierU_AR","min_rf_soldierU_AAR"]];
 
 		factionFIA = "OPF_G_F";
 
