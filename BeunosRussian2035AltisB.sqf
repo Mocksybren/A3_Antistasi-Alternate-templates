@@ -128,25 +128,25 @@ else
 
 	{
 
-	FIARifleman = "O_soldierU_F";
+	FIARifleman = "min_rf_soldierU";
 
-	FIAMarksman = "O_soldierU_M_F";
+		FIAMarksman = "min_rf_soldierU_M";
 
-	vehFIAArmedCar = "O_MRAP_02_hmg_F";
+		vehFIAArmedCar = "min_rf_gaz_2330_HMG";
 
-	vehFIATruck = "O_Truck_02_transport_F";
+		vehFIATruck = "min_rf_truck_transport";
 
-	vehFIACar = "O_MRAP_02_F";
+		vehFIACar = "min_rf_gaz_2330";
 
-	gruposFIASmall = [["O_SoldierU_GL_F",FIARifleman],[FIAMarksman,FIARifleman],["O_soldierU_M_F","O_SoldierU_GL_F"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["min_rf_soldierU_GL","min_rf_soldierU"],["min_rf_soldierU_M","min_rf_soldierU"],["min_rf_soldierU_M","min_rf_soldierU_M"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-	gruposFIAMid = [["O_SoldierU_SL_F","O_SoldierU_GL_F","O_soldierU_AR_F",FIAMarksman],["O_SoldierU_SL_F","O_SoldierU_GL_F","O_soldierU_AR_F","O_soldierU_LAT_F"],["O_SoldierU_SL_F","O_SoldierU_GL_F","O_soldierU_AR_F","O_engineer_U_F"]];
+		gruposFIAMid = [["min_rf_soldierU_TL","min_rf_soldierU_M","min_rf_soldierU_AR","min_rf_soldierU_A"],["min_rf_soldierU_TL","min_rf_soldierU_AR","min_rf_soldierU_GL","min_rf_soldierU_LAT"],["min_rf_soldierU_TL","min_rf_soldierU_LAT","min_rf_soldierU_LAT","min_rf_soldierU_LAT"]];
 
-	FIASquad = ["O_SoldierU_SL_F","O_soldierU_AR_F","O_SoldierU_GL_F",FIARifleman,FIARifleman,FIAMarksman,"O_soldierU_LAT_F","O_soldierU_medic_F"];//"IRG_InfSquad";///
+		FIASquad = ["min_rf_soldierU_SL","min_rf_soldierU","min_rf_soldierU_LAT","min_rf_soldierU_M","min_rf_soldierU_TL","min_rf_soldierU_AR","min_rf_soldierU_A","min_rf_medicU"];//"IRG_InfSquad";///
 
-	gruposFIASquad = [FIASquad,["O_SoldierU_SL_F","O_soldierU_AR_F","O_SoldierU_GL_F",FIARifleman,"O_soldierU_A_F","O_soldierU_exp_F","O_soldierU_LAT_F","O_soldierU_medic_F"]];
+		gruposFIASquad = [FIASquad,["min_rf_soldierU_SL","min_rf_soldierU_LAT","min_rf_soldierU_M","min_rf_soldierU_TL","min_rf_soldierU_A","min_rf_medicU","min_rf_soldierU_AR","min_rf_soldierU_AAR"]];
 
-	factionFIA = "";
+		factionFIA = "OPF_G_F";
 
 	};
 
