@@ -1,15 +1,15 @@
-CSATGrunt = "tbd";
-CSATOfficer = "tbd";
-CSATBodyG = "tbd";
+CSATGrunt = "uns_men_NVA_68_AS2";
+CSATOfficer = "uns_men_NVA_68_COM";
+CSATBodyG = "uns_men_NVA_68_AS6";
 CSATCrew = "uns_men_NVA_guncrew_crewman";
-CSATMarksman = "tbd";
-staticCrewMuyMalos = "tbd";
+CSATMarksman = "uns_men_NVA_68_MRK";
+staticCrewMuyMalos = "uns_men_NVA_68_AS2";
 CSATPilot = "uns_nvaf_pilot7";
 
 CSATMortar = "uns_1941_82mm_mortarNVA";
 CSATMG = "uns_dshk_high_NVA";
 staticATmuyMalos = "uns_M40_106mm_NVA";
-staticAAmuyMalos = "tbd";
+staticAAmuyMalos = "pook_ZU23_NVA";
 
 
 vehCSATLightArmed = ["tbd"];
