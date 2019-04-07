@@ -19,9 +19,9 @@ SDKSL = ["uns_men_ARVNci_PL","uns_men_ARVNci_SL"];
 SDKEng = ["uns_men_CIDG_ENG","uns_men_ARVNci_ENG"];
 
 
-vehSDKBike = "tbd";
+vehSDKBike = "RDS_Old_bike_Civ_01";
 vehSDKLightArmed = "uns_willys_2_m1919_arvn";
-vehSDKAT = "tbd";
+vehSDKAT = "uns_M40_106mm_US";
 vehSDKLightUnarmed = "uns_willys_2_arvn";
 vehSDKTruck = "uns_zil157";
 //vehSDKHeli = "uns_ch43_VNAF";
@@ -41,13 +41,12 @@ AAStaticSDKB = "tbd";
 MortStaticSDKB = "tbd";
 soporteStaticSDKB3 = "tbd";
 
+civCar = "RDS_Lada_Civ_03";
+civTruck = "RDS_Van_01_Transport_F";
+civHeli = "uns_oh6_transport";
+civBoat = "UNS_skiff2_C";
 
-civCar = "tbd";
-civTruck = "tbd";
-civHeli = "tbd";
-civBoat = "tbd";
-
-arrayCivVeh = arrayCivVeh + ["tbd"];
+arrayCivVeh = arrayCivVeh + civCar + ["RDS_tt650_Civ_01","RDS_Lada_Civ_02","RDS_Lada_Civ_04","RDS_Zetor6945_Base","RDS_S1203_Civ_02","RDS_S1203_Civ_01","RDS_JAWA353_Civ_01","RDS_Ikarus_Civ_01","RDS_Gaz24_Civ_01","RDS_Gaz24_Civ_03","RDS_Gaz24_Civ_02"];
 
 
 sniperRifle = "tbd";
@@ -119,7 +118,7 @@ APERSMineMag = "tbd";
 	};
 
 
-vehPoliceCar = "tbd";
+vehPoliceCar = "uns_willys_2_usmp";
 policeOfficer = "tbd";
 policeGrunt = "tbd";
 gruposNATOGen = [policeOfficer,policeGrunt];

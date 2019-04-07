@@ -35,7 +35,7 @@ vehCSATUAVSmall = "not_supported";
 vehCSATMRLS = "tbd";
 vehCSATMRLSMags = "tbd";
 vehCSATNormal = vehCSATLight + vehCSATTrucks + [vehCSATAmmoTruck,"uns_nvatruck_repair","uns_nvatruck_refuel"];
-vehCSATBike = "O_T_Quadbike_01_ghex_F";
+vehCSATBike = "-----------";
 
 CSATFlag = "tbd";
 CSATFlagTexture = "tbd";
