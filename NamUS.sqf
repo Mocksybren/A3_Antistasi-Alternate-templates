@@ -16,8 +16,8 @@ staticAAmalos = "Uns_M55_Quad";
 vehNATOLightArmed = ["uns_willysmg50","uns_willysm40","uns_willys_2_m1919","uns_willysmg","uns_xm706e2","uns_xm706e1"];
 vehNATOLightUnarmed = ["uns_willys_2_usmp","uns_willys_2","uns_willys"];
 vehNATOTrucks = ["uns_m37b1","uns_m37b1_m1919","uns_M35A2","uns-m35A2_Open"];
-vehNATOAmmoTruck = "not_supported";
-vehNATORepairTruck = "not_supported";
+vehNATOAmmoTruck = "uns_M35A2_ammo";
+vehNATORepairTruck = "uns_M35A2_repair";
 vehNATOLight = vehNATOLightArmed + vehNATOLightUnarmed;
 vehNATOAPC = ["uns_M113_30cal","uns_M113_M134","uns_M113_M2","uns_M113_M60","uns_M113_XM182","uns_M113A1_M134","uns_M113A1_M2","uns_M113A1_M40","uns_M113A1_M60","uns_M113A1_XM182","uns_M132","uns_M113_M30_HQ"];//"B_T_APC_Tracked_01_CRV_F" has no cargo seats
 vehNATOTank = ["uns_m48a3","uns_m551","uns_M67A"];
@@ -34,11 +34,11 @@ vehNATOAttackHelis = ["UNS_AH1G","UNS_AH1G_FFAR","UNS_AH1G_SUU11","UNS_AH1G_M200
 vehNATOAir = vehNATOTransportHelis + vehNATOAttackHelis + [vehNATOPlane,vehNATOPlaneAA];
 vehNATOUAV = "not_supported";
 vehNATOUAVSmall = "not_supported";
-vehNATOMRLS = "tbd";
-vehNATOMRLSMags = "tbd";
-vehNATONormal = vehNATOLight + vehNATOTrucks + [vehNATOAmmoTruck, "not_supported","not_supported", vehNATORepairTruck];
-vehNATOBike = "B_T_Quadbike_01_F";
-NATOFlag = "tbd";
+vehNATOMRLS = "uns_m107sp";
+vehNATOMRLSMags = "uns_30Rnd_175mmHE";
+vehNATONormal = vehNATOLight + vehNATOTrucks + [vehNATOAmmoTruck, "uns_M35A2_fueltanker","uns_M577_amb", vehNATORepairTruck];
+vehNATOBike = "uns_willys";
+NATOFlag = "uns_FlagCarrierUS";
 NATOFlagTexture = "tbd";
 NATOAmmobox = "B_supplyCrate_F";
 
@@ -46,13 +46,13 @@ NATOAmmobox = "B_supplyCrate_F";
 gruposNATOSentry = ["uns_US_1ID_GL",NATOGrunt];//"B_T_InfSentry";//
 gruposNATOSniper = ["uns_US_1ID_MKR2","uns_US_1ID_SAP"];
 gruposNATOsmall = [gruposNATOSentry,gruposNATOSniper]; //[gruposNATOSentry,"B_T_SniperTeam","B_T_ReconSentry"];///
-gruposNATOAA = ["uns_US_1ID_RTO","rhsusf_usmc_marpat_wd_autorifleman","uns_US_1ID_RF2","rhsusf_usmc_marpat_wd_stinger"];
-gruposNATOAT = ["uns_US_1ID_RTO","rhsusf_usmc_marpat_wd_autorifleman","uns_US_1ID_RF4","uns_US_1ID_AT"];
-gruposNATOmid = [["uns_US_1ID_RTO","rhsusf_usmc_marpat_wd_autorifleman","uns_US_1ID_RF6","uns_US_1ID_AT"],gruposNATOAA,gruposNATOAT];//["B_T_InfTeam","B_T_InfTeam_AA","B_T_InfTeam_AT"];///
-NATOSquad = ["rhsusf_usmc_marpat_wd_squadleader","uns_US_1ID_RTO","rhsusf_usmc_marpat_wd_autorifleman","rhsusf_usmc_marpat_wd_rifleman_m4","rhsusf_navy_marpat_wd_medic","rhsusf_usmc_marpat_wd_autorifleman","rhsusf_usmc_marpat_wd_rifleman_m4","rhsusf_usmc_marpat_wd_marksman"];//"B_T_InfSquad";//
-NATOSpecOp = ["rhsusf_socom_marsoc_teamleader","rhsusf_socom_marsoc_teamchief","rhsusf_socom_marsoc_elementleader","rhsusf_socom_marsoc_cso","rhsusf_socom_marsoc_cso_breacher","rhsusf_socom_marsoc_cso_mechanic","rhsusf_socom_marsoc_sarc","rhsusf_socom_marsoc_elementleader","rhsusf_socom_marsoc_cso","rhsusf_socom_marsoc_cso_breacher","rhsusf_socom_marsoc_cso_mechanic","rhsusf_socom_marsoc_sarc"];//(configfile >> "CfgGroups" >> "West" >> "BLU_CTRG_F" >> "Infantry" >> "CTRG_InfSquad");
-factionMachoMalos = "rhs_faction_socom";
-gruposNATOSquad = [NATOSquad,["rhsusf_usmc_marpat_d_squadleader","rhsusf_usmc_marpat_d_machinegunner","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_riflemanat","uns_US_1ID_GL","rhsusf_usmc_marpat_d_javelin","rhsusf_usmc_marpat_d_javelin_assistant","rhsusf_navy_sarc_d"],["rhsusf_usmc_marpat_d_squadleader","rhsusf_usmc_marpat_d_machinegunner","rhsusf_usmc_marpat_d_riflemanat","uns_US_1ID_GL","uns_US_1ID_GL","rhsusf_usmc_marpat_d_stinger","rhsusf_usmc_marpat_d_rifleman_light","rhsusf_navy_sarc_d_fast"],["rhsusf_usmc_marpat_wd_squadleader","rhsusf_usmc_marpat_wd_teamleader","rhsusf_usmc_marpat_wd_autorifleman","rhsusf_usmc_marpat_wd_rifleman_m4","rhsusf_navy_marpat_wd_medic","rhsusf_usmc_marpat_wd_autorifleman","rhsusf_usmc_marpat_wd_rifleman_m4","rhsusf_usmc_marpat_d_explosives"]]; //[NATOSquad,"B_T_InfSquad_Weapons"];///
+gruposNATOAA = ["uns_US_1ID_RTO","uns_US_1ID_HMG","uns_US_1ID_RF2","uns_US_1ID_AHMG"];
+gruposNATOAT = ["uns_US_1ID_RTO","uns_US_1ID_HMG","uns_US_1ID_RF4","uns_US_1ID_AT"];
+gruposNATOmid = [["uns_US_1ID_RTO","uns_US_1ID_HMG","uns_US_1ID_RF6","uns_US_1ID_AT"],gruposNATOAA,gruposNATOAT];//["B_T_InfTeam","B_T_InfTeam_AA","B_T_InfTeam_AT"];///
+NATOSquad = ["uns_US_1ID_SL","uns_US_1ID_RTO","uns_US_1ID_HMG","uns_US_1ID_RF3","uns_US_1ID_MED","uns_US_1ID_HMG","uns_US_1ID_RF2","uns_US_1ID_MKR3"];//"B_T_InfSquad";//
+NATOSpecOp = ["uns_men_US_6SFG_SL","uns_men_US_6SFG_SCT","uns_men_US_6SFG_GL","uns_men_US_6SFG_RTO","uns_men_US_6SFG_SAP","uns_men_US_6SFG_ENG","uns_men_US_6SFG_MED","uns_men_US_6SFG_RTO","uns_men_US_6SFG_AT","uns_men_US_6SFG_MRK3","uns_men_US_6SFG_DEM","uns_men_US_6SFG_MED"];//(configfile >> "CfgGroups" >> "West" >> "BLU_CTRG_F" >> "Infantry" >> "CTRG_InfSquad");
+factionMachoMalos = "UNSUNG_W";
+gruposNATOSquad = [NATOSquad,["uns_US_1ID_SL","uns_US_1ID_HMG","uns_US_1ID_AT","uns_US_1ID_AT","uns_US_1ID_GL","uns_US_1ID_AT","uns_US_1ID_AT","uns_US_1ID_MED"],["uns_US_1ID_SL","uns_US_1ID_HMG","uns_US_1ID_AT","uns_US_1ID_GL","uns_US_1ID_GL","uns_US_1ID_AT","uns_US_1ID_HMG","uns_US_1ID_MED"],["uns_US_1ID_SL","uns_US_1ID_MTSG","uns_US_1ID_MGSG","uns_US_1ID_MTSG","uns_US_1ID_MED","uns_US_1ID_MED","uns_US_1ID_RF3","uns_US_1ID_SAP"]]; //[NATOSquad,"B_T_InfSquad_Weapons"];///
 
 soporteStaticNATOB = "rhs_TOW_Tripod_Bag";
 ATStaticNATOB = "rhs_Tow_Gun_Bag";
@@ -77,4 +77,4 @@ flagNATOmrk = "flag_USA";//ok
 
 lamparaMalos = "acc_flashlight";
 nameMalos = "USA";
-if (isServer) then {"NATO_carrier" setMarkerText "USA Carrier"};
+if (isServer) then {"NATO_carrier" setMarkerText "USA Insertion Point"};

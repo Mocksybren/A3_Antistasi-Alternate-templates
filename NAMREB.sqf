@@ -37,7 +37,7 @@ soporteStaticSDKB = "tbd";
 ATStaticSDKB = "tbd";
 MGStaticSDKB = "tbd";
 soporteStaticSDKB2 = "tbd";
-AAStaticSDKB = "tbd";
+AAStaticSDKB = "not_supported";
 MortStaticSDKB = "tbd";
 soporteStaticSDKB3 = "tbd";
 
@@ -49,12 +49,12 @@ civBoat = "UNS_skiff2_C";
 arrayCivVeh = arrayCivVeh + civCar + ["RDS_tt650_Civ_01","RDS_Lada_Civ_02","RDS_Lada_Civ_04","RDS_Zetor6945_Base","RDS_S1203_Civ_02","RDS_S1203_Civ_01","RDS_JAWA353_Civ_01","RDS_Ikarus_Civ_01","RDS_Gaz24_Civ_01","RDS_Gaz24_Civ_03","RDS_Gaz24_Civ_02"];
 
 
-sniperRifle = "tbd";
-lamparasSDK = ["tbd"];
+sniperRifle = "uns_svd_base";
+lamparasSDK = ["not_supported"];
 
 
-ATMineMag = "tbd";
-APERSMineMag = "tbd";
+ATMineMag = "uns_mine_t59";
+APERSMineMag = "uns_mine_m16";
 
 
 	{
@@ -63,27 +63,27 @@ APERSMineMag = "tbd";
 
 		{
 
-		FIARifleman = "tbd";
+		FIARifleman = "uns_US_1ID_RF1";
 
-		FIAMarksman = "tbd";
+		FIAMarksman = "uns_US_1ID_MKR3";
 
-		vehFIAArmedCar = "tbd";
+		vehFIAArmedCar = "uns_xm706e2";
 
-		vehFIATruck = "tbd";
+		vehFIATruck = "uns_M35A2";
 
-		vehFIACar = "tbd";
+		vehFIACar = "uns_willys";
 
 
 
-		gruposFIASmall = [["tbd","tbd"],["tbd","tbd"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["uns_US_1ID_RF4","uns_US_1ID_RF6"],["uns_US_1ID_RF5","uns_US_1ID_MRK"]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-		gruposFIAMid = [["tbd","tbd","tbd","tbd"],["tbd","tbd","tbd","tbd"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
+		gruposFIAMid = [["uns_US_1ID_SL","uns_US_1ID_AT","uns_US_1ID_MKR3","uns_US_1ID_MGSG"],["uns_US_1ID_SL","uns_US_1ID_MKR3","uns_US_1ID_GL","uns_US_1ID_AT"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
 
-		FIASquad = ["tbd","tbd","tbd","tbd","tbd","tbd","tbd","tbd"];//"IRG_InfSquad";///
+		FIASquad = ["uns_US_1ID_SL","uns_US_1ID_AT","uns_US_1ID_MKR3","uns_US_1ID_MGSG","uns_US_1ID_GL","uns_US_1ID_MED","uns_US_1ID_MGSG2","uns_US_1ID_DEM"];//"IRG_InfSquad";///
 
 		gruposFIASquad = [FIASquad];
 
-		factionFIA = "tbd";
+		factionFIA = "UNSUNG_W";
 
 		}
 
@@ -91,27 +91,27 @@ APERSMineMag = "tbd";
 
 		{
 
-		FIARifleman = "tbd";
+		FIARifleman = "uns_men_VC_mainforce_RF4";
 
-		FIAMarksman = "tbd";
+		FIAMarksman = "uns_men_VC_mainforce_MRK";
 
-		vehFIAArmedCar = "tbd";
+		vehFIAArmedCar = "uns_Type55_patrol";
 
-		vehFIATruck = "tbd";
+		vehFIATruck = "uns_nvatruck";
 
-		vehFIACar = "tbd";
+		vehFIACar = "uns_Type55";
 
 
 
-		gruposFIASmall = [["tbd",FIARifleman],[FIAMarksman,FIARifleman]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
+		gruposFIASmall = [["uns_men_VC_mainforce_RF2",FIARifleman],[FIAMarksman,FIARifleman]];//["IRG_InfSentry","IRG_ReconSentry","IRG_SniperTeam_M"];///
 
-		gruposFIAMid = [["tbd","tbd",FIARifleman,"tbd"],["tbd","tbd",FIARifleman,"tbd"],["tbd","tbd",FIARifleman,"tbd"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
+		gruposFIAMid = [["uns_men_VC_mainforce_AS1","uns_men_VC_mainforce_AT2",FIARifleman,"uns_men_VC_mainforce_HMG"],["uns_men_VC_mainforce_AS1","uns_men_VC_mainforce_HMG",FIARifleman,"uns_men_VC_mainforce_MGS"],["uns_men_VC_mainforce_AS1","uns_men_VC_mainforce_AT2",FIARifleman,"uns_men_VC_mainforce_MGS"]];//["IRG_InfAssault","IRG_InfTeam","IRG_InfTeam_AT"];///
 
-		FIASquad = ["tbd","tbd","tbd","tbd","tbd","tbd","tbd","tbd"];//"IRG_InfSquad";///
+		FIASquad = ["uns_men_VC_mainforce_AS1","uns_men_VC_mainforce_AS3","uns_men_VC_mainforce_LMG","uns_men_VC_mainforce_AT","uns_men_VC_mainforce_MED","uns_men_VC_mainforce_AS2","uns_men_VC_mainforce_HMG","uns_men_VC_mainforce_AT2"];//"IRG_InfSquad";///
 
 		gruposFIASquad = [FIASquad];
 
-		factionFIA = "tbd";
+		factionFIA = "UNSUNG_EV";
 
 		};
 
@@ -119,9 +119,9 @@ APERSMineMag = "tbd";
 
 
 vehPoliceCar = "uns_willys_2_usmp";
-policeOfficer = "tbd";
-policeGrunt = "tbd";
-gruposNATOGen = [policeOfficer,policeGrunt];
-nameBuenos = "tbd";
+policeOfficer = "uns_men_NZ_65_STY3";
+policeGrunt = "uns_men_NZ_65_STY";
+gruposNATOGen = [policeOfficer,policeGrunt,policeGrunt,policeOfficer];
+nameBuenos = "VCFF";
 
-factionGEN = "tbd";
+factionGEN = "UNSUNG_NZ";

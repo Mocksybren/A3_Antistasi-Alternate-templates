@@ -12,13 +12,13 @@ staticATmuyMalos = "uns_M40_106mm_NVA";
 staticAAmuyMalos = "pook_ZU23_NVA";
 
 
-vehCSATLightArmed = ["tbd"];
-vehCSATLightUnarmed = ["tbd","tbd"];
-vehCSATTrucks = ["tbd"];
+vehCSATLightArmed = ["uns_Type55_LMG","uns_nvatruck_mg","uns_Type55_twinMG","uns_Type55_MG","uns_Type55_RR73","uns_Type55_mortar"];
+vehCSATLightUnarmed = ["uns_Type55_patrol","uns_Type55_patrol"];
+vehCSATTrucks = ["uns_nvatruck","uns_nvatruck_camo","uns_nvatruck_open","uns_nvatruck_mg"];
 vehCSATAmmoTruck = "uns_nvatruck_reammo";
 vehCSATLight = vehCSATLightArmed + vehCSATLightUnarmed;
-vehCSATAPC = ["tbd","tbd"];
-vehCSATTank = "tbd";
+vehCSATAPC = ["uns_BTR152_DSHK","uns_type63_mg"];
+vehCSATTank = "uns_ot34_85_nva","";
 vehCSATAA = "tbd";
 vehCSATAttack = vehCSATAPC + [vehCSATTank];
 vehCSATBoat = ["UNS_ASSAULT_BOAT_NVA","UNS_Zodiac_NVA"];
