@@ -1,13 +1,13 @@
 SDKMortar = "uns_m1941_82mm_mortarVC";
-SDKMortarHEMag = "tbd";
-SDKMortarSmokeMag = "tbd";
+SDKMortarHEMag = "uns_24Rnd_82mmHE_M1941";
+SDKMortarSmokeMag = "uns_24Rnd_82mmSMOKE_M1941";
 SDKMGStatic = "uns_pk_high_VC";
 staticATBuenos = "uns_SPG9_73mm_VC";
 staticAABuenos = "uns_ZU23_VC";
 
 
 staticCrewBuenos = "uns_men_CIDG_S2";
-SDKUnarmed = "tbd";
+SDKUnarmed = "I_survivor_F";
 SDKSniper = ["uns_men_CIDG_MRK2","uns_men_CIDG_MRK"];
 SDKATman = ["uns_men_CIDG_AT","uns_men_CIDG_AT"];
 SDKMedic = ["uns_men_CIDG_MED","uns_men_ARVNci_MED"];
@@ -29,17 +29,17 @@ vehSDKPlane = "uns_A1H_BMB";
 vehSDKBoat = "UNS_VC_Sampan_Transport";
 vehSDKRepair = "uns_zil157_repair";
 SDKFlag = "Flag_Syndikat_F";
-SDKFlagTexture = "tbd";
+SDKFlagTexture = "\A3\Data_F_exp\Flags\Flag_Synd_CO.paa";
 tipoPetros = "uns_men_ARVNci_RTO";
 
 
-soporteStaticSDKB = "tbd";
-ATStaticSDKB = "tbd";
-MGStaticSDKB = "tbd";
-soporteStaticSDKB2 = "tbd";
+soporteStaticSDKB = "uns_Tripod_Bag";
+ATStaticSDKB = "uns_SPG9_VC_Bag";
+MGStaticSDKB = "Uns_PK_High_VC_Bag";
+soporteStaticSDKB2 = "uns_Tripod_Bag";
 AAStaticSDKB = "not_supported";
-MortStaticSDKB = "tbd";
-soporteStaticSDKB3 = "tbd";
+MortStaticSDKB = "uns_m1941_82mm_Mortar_VC_Bag";
+soporteStaticSDKB3 = "uns_Tripod_Bag";
 
 civCar = "RDS_Lada_Civ_03";
 civTruck = "RDS_Van_01_Transport_F";
