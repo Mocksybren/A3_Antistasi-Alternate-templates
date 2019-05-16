@@ -61,13 +61,13 @@ AAStaticCSATB = "not_supported";
 MortStaticCSATB = "Uns_M1941_82mm_Mortar_NVA_Bag";
 soporteStaticCSATB3 = "uns_Tripod_Bag";
 
-armasCSAT = ["tbd","tbd"];
-municionCSAT = ["tbd"];
-humo = humo + ["tbd","tbd","tbd"];
-NVGoggles = NVGoggles + ["tbd"];
+armasCSAT append ["uns_ak47","uns_ak47_49","uns_ak47_52","uns_akm","uns_akm_drum","uns_akms","uns_akms_drum","uns_akmsf","uns_akmsf_drum","uns_aks47","uns_aks47f","uns_type99","uns_type99_gl","uns_DP28_base","uns_f1_smg","uns_t233","uns_k50m","uns_k50mdrum","uns_kar98k","uns_MG42","uns_mg42bakelite","uns_MG42support","uns_mosin","uns_mp40","uns_type100","uns_PKsupport","uns_PK","uns_pm63","uns_pm63f","uns_PPS43","uns_PPS43f","uns_PPS52","uns_ppsh41","uns_RPDsupport","uns_rpd","uns_rpdsog","uns_RPK_40","uns_RPK_drum","uns_sa58p","uns_sa58p_camo","uns_sa58v","uns_sa58vf","uns_sa61","uns_sa61f","uns_sks","uns_STG_44","uns_svd_base","uns_SVD_CAMO_base","uns_svt","uns_type50","uns_type56","uns_ukvz59","uns_uzi","uns_uzif","uns_B40","uns_rpg2","uns_rpg7","uns_sa7","uns_sa7b","uns_makarov","uns_mat49p","uns_nagant_m1895","uns_p64","uns_pm63p","uns_sa61_p","uns_tt30","uns_Tt33"];
+municionCSAT append
+humo = humo + ["uns_molotov_mag","uns_f1gren","uns_rdg2","uns_rdg3","uns_rg42gren","uns_rdg33gren","uns_rdg5gren","uns_rdk3gren","uns_t67gren"]];
+NVGoggles = NVGoggles;
 //opticasAAF = opticasAAF + ["tbd"];
 itemsAAF = itemsAAF + ["tbd"];
-lamparaMuyMalos = "tbd";
+lamparaMuyMalos = "not_supported";
 flagCSATmrk = "tbd";
 
 nameMuyMalos = "NVA";
