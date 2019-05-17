@@ -39,7 +39,6 @@ vehNATOMRLSMags = "uns_30Rnd_175mmHE";
 vehNATONormal = vehNATOLight + vehNATOTrucks + [vehNATOAmmoTruck, "uns_M35A2_fueltanker","uns_M577_amb", vehNATORepairTruck];
 vehNATOBike = "uns_willys";
 NATOFlag = "uns_FlagCarrierUS";
-NATOFlagTexture = "tbd";
 NATOAmmobox = "B_supplyCrate_F";
 
 //cfgNATOInf = (configfile >> "CfgGroups" >> "West" >> "BLU_T_F" >> "Infantry");///
@@ -54,27 +53,21 @@ NATOSpecOp = ["uns_men_US_6SFG_SL","uns_men_US_6SFG_SCT","uns_men_US_6SFG_GL","u
 factionMachoMalos = "UNSUNG_W";
 gruposNATOSquad = [NATOSquad,["uns_US_1ID_SL","uns_US_1ID_HMG","uns_US_1ID_AT","uns_US_1ID_AT","uns_US_1ID_GL","uns_US_1ID_AT","uns_US_1ID_AT","uns_US_1ID_MED"],["uns_US_1ID_SL","uns_US_1ID_HMG","uns_US_1ID_AT","uns_US_1ID_GL","uns_US_1ID_GL","uns_US_1ID_AT","uns_US_1ID_HMG","uns_US_1ID_MED"],["uns_US_1ID_SL","uns_US_1ID_MTSG","uns_US_1ID_MGSG","uns_US_1ID_MTSG","uns_US_1ID_MED","uns_US_1ID_MED","uns_US_1ID_RF3","uns_US_1ID_SAP"]]; //[NATOSquad,"B_T_InfSquad_Weapons"];///
 
-soporteStaticNATOB = "rhs_TOW_Tripod_Bag";
-ATStaticNATOB = "rhs_Tow_Gun_Bag";
-MGStaticNATOB = "RHS_M2_Gun_Bag";
-soporteStaticNATOB2 = "RHS_M2_Tripod_Bag";
-AAStaticNATOB = "B_AA_01_weapon_F";
-MortStaticNATOB = "rhs_M252_Gun_Bag";
-soporteStaticNATOB3 = "rhs_M252_Bipod_Bag";
+soporteStaticNATOB = "uns_Tripod_Bag";
+ATStaticNATOB = "not_supported";
+MGStaticNATOB = "uns_m2_high_US_Bag";
+soporteStaticNATOB2 = "uns_Tripod_Bag";
+AAStaticNATOB = "not_supported";
+MortStaticNATOB = "uns_M1_81mm_mortar_US_Bag";
+soporteStaticNATOB3 = "uns_Tripod_Bag";
 
-armasNATO = ["rhs_weap_hk416d10","rhs_weap_m16a4","rhs_weap_XM2010","rhs_weap_m24sws","rhs_weap_m27iar","rhs_weap_m4","rhs_weap_m40a5","rhs_weap_m4a1_carryhandle","rhs_weap_m4a1_blockII","rhs_weap_m4a1","rhs_weap_M590_8RD","rhs_weap_mk18","rhsusf_weap_MP7A2","hgun_Pistol_heavy_01_F","rhs_weap_fgm148","rhs_weap_fim92","rhsusf_weap_glock17g4","rhs_weap_M107","rhs_weap_M136","rhs_weap_M136_hedp","rhs_weap_M136_hp","rhs_weap_m14ebrri","rhs_weap_m72a7","rhsusf_weap_m9","rhs_weap_sr25","lerca_1200_black","lerca_1200_tan","Leupold_Mk4","rhs_weap_m240B","rhs_weap_m249","rhs_weap_smaw","rhs_weap_m39"];//possible weapons that spawn in NATO ammoboxes
-humo = humo + ["rhs_mag_an_m8hc","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m18_green","rhs_mag_m18_yellow"];
-NVGoggles = NVGoggles + ["rhsusf_ANPVS_14"/*,"rhsusf_ANPVS_15"*/];
-itemsAAF = itemsAAF + ["rhsusf_acc_grip2","rhsusf_acc_grip2_tan","rhsusf_acc_anpeq15side_bk","rhsusf_acc_anpeq15_bk_top","rhsusf_acc_anpeq15","rhsusf_acc_anpeq15_light","rhsusf_acc_anpeq15_bk","rhsusf_acc_anpeq15_bk_light","rhsusf_acc_anpeq15A","rhsusf_acc_ARDEC_M240","rhsusf_acc_nt4_black","rhsusf_acc_nt4_tan","rhsusf_acc_SFMB556"];
-//opticasAAF = opticasAAF + ["rhsusf_acc_anpas13gv1","rhsusf_acc_ACOG2_USMC","rhsusf_acc_ACOG3_USMC","rhsusf_acc_ACOG_USMC","rhsusf_acc_anpvs27","rhsusf_acc_ARDEC_M240","rhsusf_acc_ELCAN","rhsusf_acc_ELCAN_ard","rhsusf_acc_ACOG","rhsusf_acc_ACOG3","rhsusf_acc_ACOG_anpvs27","rhsusf_acc_M2A1","rhsusf_acc_compm4","rhsusf_acc_M8541","rhsusf_acc_premier_low","rhsusf_acc_premier_anpvs27","rhsusf_acc_premier","rhsusf_acc_LEUPOLDMK4","rhsusf_acc_LEUPOLDMK4_2","rhsusf_acc_LEUPOLDMK4_2_d","optic_MRD","rhs_weap_optic_smaw","rhsusf_acc_SpecterDR","rhsusf_acc_SpecterDR_D","rhsusf_acc_SpecterDR_A","rhsusf_acc_ACOG_MDO","rhsusf_acc_ACOG_RMR","rhsusf_acc_eotech_xps3"];
-municionNATO = [];
-{
-_nombre = [_x] call BIS_fnc_baseWeapon;
-_magazines = getArray (configFile / "CfgWeapons" / _nombre / "magazines");
-municionNATO pushBack (_magazines select 0);
-} forEach armasNATO;
+armasNATO = ["uns_l1a1_enfield","uns_l1a1_blk","uns_l1a1","uns_l2a1","uns_l2a1_shorty","uns_l1a1gl","uns_smle","uns_smle_sniper","uns_m1crabine","uns_m14","uns_bar","uns_m1919a6","uns_m2carbine","uns_m2carbine_shorty","uns_m60grip","uns_m60support","uns_m60shorty","uns_mg60","uns_m79","uns_m1carbine_pouch","uns_m1carbine_pouch_gl","uns_m1carbine_gl","uns_m1garand","uns_m1garand_gl","uns_m16","uns_m16_camo","uns_m17_dm","uns_m16_m203","uns_m16_xm148","uns_m16_xm148_camo","uns_M16A1","uns_M16A1_camo","uns_M16A1_HBAR","uns_m16a1_m203","uns_m16a1_xm148","uns_m1903","uns_thompson","uns_m2carbine_gl","uns_m3carbine","uns_m3a1","uns_m40_base","uns_baikal","uns_baikal_sawnoff","uns_itchaca37","uns_itchaca37_grip","uns_model12","uns_m870","uns_m870_mk1","uns_m1897riot","uns_m1897","uns_sten","uns_Sterling","uns_Sterling_f","uns_SterlingSD","uns_SterlingSD_f","uns_m63a_AR_base","uns_M63a_drum","uns_m63asupport","uns_M63a","uns_model70_iron","uns_xm177e1","uns_xm177e1_dm","uns_xm177e1_m203","uns_xm177e2","uns_xm177e2_grip","uns_xm177e2_m203","uns_xm177e2_short","uns_xm177e2_stock","uns_xm177e2_xm148","uns_xm177e1_xm148","uns_m72","uns_m127a1_flare","uns_m20_bazooka","uns_m1911","uns_MX991_m1911_base","uns_MX991_m1911SD_base","uns_MX991_g","uns_MX991_r","uns_MX911_w_base","uns_38spec","uns_sw_m10","uns_bhp","uns_coltcmdr","uns_357m","uns_m2carbine_shorty_p","uns_m79p"];//possible weapons that spawn in NATO ammoboxes
+municionNATO append;
+humo = humo + ["uns_m14gren","uns_m308gren","uns_m34gren","uns_m61gren","uns_m67gren","uns_m7gren","uns_mk2gren","uns_mk3a2gren","uns_mk40gren","uns_m18red","uns_mk18white","uns_v40gren"];
+itemsAAF = itemsAAF + ["UNS_TrapKit","uns_bp_M60","uns_BA30_green","uns_BA30_red","uns_BA30","uns_b_m40_camo","uns_bm70_camo","uns_b_smle_camo"];
+opticasAAF = ["uns_o_ANPVS2_M14","uns_o_ANPVS2","uns_o_ANPVS2_M16","uns_o_colt4x","uns_o_LeatherwoodART_m14_custom","uns_o_LeatherwoodART_m14","uns_o_LeatherwoodART_m16","uns_o_LeatherwoodART","uns_o_M84","uns_o_smle_3x","uns_o_RedfieldART",""uns_o_RedfieldART_m70,"uns_o_Unertl8x","uns_o_Unertl8x_m70"]
 flagNATOmrk = "flag_USA";//ok
 
-lamparaMalos = "acc_flashlight";
+lamparaMalos = "not_supported";
 nameMalos = "USA";
 if (isServer) then {"NATO_carrier" setMarkerText "USA Insertion Point"};
